@@ -1,15 +1,15 @@
-# Beast Games Analytics Portfolio
+# 🎮 Beast Games Analytics
 
-**Senior Manager, Data & Analytics** · Umair Tareen | [LinkedIn](https://www.linkedin.com/in/umairtareen/) | [GitHub](https://github.com/gdtrader87)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white) ![YouTube](https://img.shields.io/badge/YouTube%20Data%20API%20v3-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
----
+**Data-driven content strategy intelligence for MrBeast's Beast Games** — connecting packaging decisions (thumbnails, titles, pacing, guests) to measurable performance outcomes.
 
-## 🎮 [▶ Live Fan Engagement Demo](https://gdtrader87.github.io/beast-games-analysis/) &nbsp;|&nbsp; 📊 [▶ View Pitch Deck](https://gdtrader87.github.io/beast-games-analysis/pitch.html)
+## 🚀 [▶ Live Fan Engagement Demo](https://umair-tareen.github.io/beast-games-analysis/) &nbsp;|&nbsp; 📊 [▶ View Pitch Deck](https://umair-tareen.github.io/beast-games-analysis/pitch.html)
 > Beast Games 3 Fan Engagement Intelligence Layer · 10-slide analytics pitch deck — no code required
 
 ---
 
-## Dashboard Preview
+## 📸 Dashboard Preview
 
 ![Beast Games Analytics Dashboard](assets/dashboard_preview.png)
 
@@ -17,7 +17,7 @@
 
 ---
 
-## Project Overview
+## 💫 Project Overview
 
 Beast Games is MrBeast's flagship entertainment show on Amazon Prime — the largest reality competition in YouTube history with 1,000 contestants and a $5M prize. This analysis identifies the data patterns behind its success by examining:
 
@@ -29,7 +29,7 @@ Beast Games is MrBeast's flagship entertainment show on Amazon Prime — the lar
 
 ---
 
-## Key Findings
+## 🔑 Key Findings
 
 | Metric | Finding |
 |--------|---------|
@@ -43,7 +43,7 @@ Beast Games is MrBeast's flagship entertainment show on Amazon Prime — the lar
 
 ---
 
-## Key Hypotheses
+## 🧪 Key Hypotheses
 
 1. Larger prize amounts in titles correlate with 25–35% higher CTR
 2. Celebrity guest appearances drive 2–3x view lift
@@ -53,7 +53,7 @@ Beast Games is MrBeast's flagship entertainment show on Amazon Prime — the lar
 
 ---
 
-## Dashboard Tabs
+## 📊 Dashboard Tabs
 
 | Tab | What it shows |
 |-----|---------------|
@@ -69,7 +69,7 @@ Beast Games is MrBeast's flagship entertainment show on Amazon Prime — the lar
 
 ---
 
-## Running the Dashboard
+## ⚡ Quick Start
 
 ```bash
 pip install -r requirements.txt
@@ -78,26 +78,51 @@ streamlit run dashboard.py
 
 Opens at `http://localhost:8501`
 
+> **Demo mode by default** — the dashboard ships with a curated channel dataset (`data/channels.yaml`) so it runs instantly with no API key. To pull live channel metrics, set a YouTube Data API v3 key and run the fetcher:
+>
+> ```bash
+> export YOUTUBE_API_KEY='your_api_key'
+> python3 fetch_youtube_data.py
+> ```
+>
+> See [`YOUTUBE_API_SETUP.md`](YOUTUBE_API_SETUP.md) for setup details.
+
+### Additional dashboards & CLI analysis
+
+```bash
+streamlit run results_dashboard.py    # YouTube data results view
+streamlit run beastbet_dashboard.py   # Fan engagement prediction system
+python3 analysis.py                   # Statistical insights framework
+python3 ab_testing.py                 # A/B test analysis
+python3 anomaly_detection.py          # Outlier detection engine
+python3 competitive_analysis.py       # Competitor benchmarking
+```
+
 ---
 
-## Methodology
+## 🔬 Methodology
 
 ### Data Sources
-- YouTube Data API v3 — video metadata, view counts, engagement metrics
+- YouTube Data API v3 — video metadata, view counts, engagement metrics (live mode)
+- Curated channel dataset with estimated metrics for instant demo (`data/channels.yaml`)
 - Amazon Prime Video Season 2 viewership data
 - Cross-channel analysis: MrBeast (471M subs), MrBeast 2 (40M), Beast Philanthropy (26M)
 
 ### Stack
 - **Python** — pandas, numpy, plotly, streamlit, scikit-learn, scipy
-- **Data** — YAML-based channel data store (`data/channels.yaml`)
+- **Data** — YAML-based channel data store + JSON analysis outputs
 - **Dashboard** — Streamlit multi-tab with Plotly visualizations
 
 ---
 
-## About This Analysis
+## 💼 About This Analysis
 
 This portfolio demonstrates applied YouTube intelligence — connecting content packaging decisions (thumbnails, titles, pacing, guests) to measurable performance outcomes. The analytical framework mirrors what a Senior Manager of YouTube Intelligence owns: defining which metrics matter, identifying patterns in clickability and watchability, and translating findings into actionable creative recommendations with measurable impact.
 
 ---
+
+## 🌐 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umairtareen/) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://www.tiktok.com/@quantify.life) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/UAT_34) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/umair-tareen)
 
 *Built by Umair Tareen — Senior Manager, Data & Analytics*
